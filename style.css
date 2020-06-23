@@ -668,7 +668,7 @@ input:required {
         max-width: 5px;
         margin-right: 10px; } }
     .classy-nav-container .classy-navbar .classynav ul li a {
-      font-size: 16px;
+      font-size: 14px;
       text-transform: uppercase;
       color: #ffffff;
       font-weight: 500;
@@ -883,8 +883,7 @@ input:required {
         top: 67px;
         right: 5px;
         z-index: -1;
-        background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
-        background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%); }
+         }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .single-welcome-slide .welcome-text h2::after {
             top: 40px;
@@ -905,7 +904,8 @@ input:required {
       display: inline-block;
       background-color: rgba(255, 255, 255, 0.1);
       padding: 10px 20px;
-      font-size: 18px; }
+      font-size: 19px; 
+    }
       @media only screen and (max-width: 767px) {
         .single-welcome-slide .welcome-text h6 {
           font-size: 14px; } }
