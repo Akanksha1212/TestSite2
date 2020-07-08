@@ -315,7 +315,7 @@ input:required {
   padding-bottom: 0; }
 
 /* :: 3.0 Preloader Area CSS */
-#preloader {
+/* #preloader {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -366,7 +366,7 @@ input:required {
   100% {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+    transform: rotate(360deg); } } */
 /* :: 4.0 Heading Area CSS */
 .section-heading {
   position: relative;
@@ -668,10 +668,10 @@ input:required {
         max-width: 5px;
         margin-right: 10px; } }
     .classy-nav-container .classy-navbar .classynav ul li a {
-      font-size: 14px;
+      font-size: 15px;
       text-transform: uppercase;
       color: #ffffff;
-      font-weight: 500;
+      font-weight: 700;
       padding: 0 10px; }
       .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
         color: #df42b1; }
@@ -843,7 +843,7 @@ input:required {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: 700px;
+  height: 800px;
   background-color: #df42b1; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-welcome-slide {
@@ -853,7 +853,7 @@ input:required {
       height: 800px; } }
   @media only screen and (max-width: 767px) {
     .single-welcome-slide {
-      height: 700px; } }
+      height: 800px; } }
   .single-welcome-slide .welcome-text {
     position: relative;
     z-index: 1; }
@@ -862,7 +862,7 @@ input:required {
       z-index: 1;
       font-weight: 700;
       font-size: 50px;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
       display: block;
       margin-bottom: 10px;
       color: #ffffff; }
@@ -956,7 +956,6 @@ input:required {
         .single-welcome-slide .welcome-text-two .event-meta a i {
           margin-right: 5px; }
 
-/* :: Footer Area CSS */
 .footer-area {
   position: relative;
   z-index: 1;
@@ -1402,7 +1401,11 @@ input:required {
       line-height: 1; }
   .single-speaker-area:hover .social-info, .single-speaker-area:focus .social-info {
     top: 0; }
-
+/* comssssnfbflsdg */
+/* .comm {
+  background-color: #4d507d;
+}
+     */
 /* :: 13.0 Breadcrumb CSS */
 .breadcrumb-area {
   position: relative;
@@ -2511,20 +2514,19 @@ input:required {
 .our-sponsor-client-area {
   position: relative;
   z-index: 1;
-  background-color: #ffffff; }
+  background-color: #151853; }
 
 .our-sponsor-area {
   position: relative;
   z-index: 1;
   width: 100%; }
   .our-sponsor-area .single-sponsor {
-    border: 1px solid #444675;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
     width: 25%;
-    height: 240px;
+    height: 220px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2534,14 +2536,15 @@ input:required {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-left: -1px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -1px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .our-sponsor-area .single-sponsor {
-        height: 200px; } }
+        height: 150px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .our-sponsor-area .single-sponsor {
-        height: 150px; } }
+        height: 130px; } }
     @media only screen and (max-width: 767px) {
       .our-sponsor-area .single-sponsor {
         height: 80px; } }
